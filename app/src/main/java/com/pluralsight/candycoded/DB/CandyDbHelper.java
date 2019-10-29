@@ -6,10 +6,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 public class CandyDbHelper extends SQLiteOpenHelper {
     public CandyDbHelper(Context context) {
-        super(context,
-              CandyContract.DB_NAME,
-              null,
-              CandyContract.DB_VERSION);
+        super(context, CandyContract.DB_NAME, null, CandyContract.DB_VERSION);
     }
 
     @Override
